@@ -60,7 +60,7 @@ def log():
         else:
             return render_template('login_form.html', status="wrong credentials")
     else:
-        return render_template('login_form.html',status="user not found")
+        return render_template('login_form.html',status="Invalid User")
 
 
 
